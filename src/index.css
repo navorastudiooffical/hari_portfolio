@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
-body{margin:0;min-width:320px}
-::selection{background:#bed7ff;color:#171918}
-:focus-visible{outline:2px solid #6889ed;outline-offset:4px}
+:root{font-synthesis:none;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;color-scheme:dark}
+body{margin:0;min-width:320px;background:#111311}
+::selection{background:#d9f36a;color:#111311}
+:focus-visible{outline:2px solid #d9f36a;outline-offset:5px}
 #root{min-height:100vh}
